@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee331dee.css",
+    "main.js": "/static/js/main.5b64e7dd.js",
+    "static/js/453.6937aff7.chunk.js": "/static/js/453.6937aff7.chunk.js",
+    "static/media/trading_quote.jpg": "/static/media/trading_quote.e15770277c101d1b0a4c.jpg",
+    "static/media/problem_solving_image.jpg": "/static/media/problem_solving_image.334e2bef785dd0f3ddb8.jpg",
+    "static/media/metrics_image.jpg": "/static/media/metrics_image.be0671e077565a386ad9.jpg",
+    "static/media/itradeprofitIcon1.ico": "/static/media/itradeprofitIcon1.5bdd490d52da86c3e5c8.ico",
+    "index.html": "/index.html",
+    "main.ee331dee.css.map": "/static/css/main.ee331dee.css.map",
+    "main.5b64e7dd.js.map": "/static/js/main.5b64e7dd.js.map",
+    "453.6937aff7.chunk.js.map": "/static/js/453.6937aff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee331dee.css",
+    "static/js/main.5b64e7dd.js"
+  ]
+}
