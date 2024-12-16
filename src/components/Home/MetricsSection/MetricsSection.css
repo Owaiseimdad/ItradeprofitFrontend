@@ -1,0 +1,35 @@
+/* src/components/Home/MetricsSection.css */
+
+.home-metrics-section {
+  position: relative; /* Enable positioning for the pseudo-element */
+  color: Black; /* Change text color for better contrast */
+  padding: 50px; /* Add padding */
+  height: 400px; /* Set a height for the section */
+  display: flex; /* Flexbox for content alignment */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  overflow: hidden; /* Prevent overflow */
+  height: 100vh;
+}
+
+.home-metrics-section::before {
+  content: ''; /* Required for pseudo-element */
+  position: absolute; /* Position it absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Stretch to the right */
+  bottom: 0; /* Stretch to the bottom */
+  background-image: url('../../../assets/images/metrics_image.jpg'); /* Path to the image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  opacity: 0.5; /* Adjust the opacity (0 to 1) */
+  z-index: 1; /* Send it behind the content */
+}
+
+.home-metrics-section h2,
+.home-metrics-section p {
+  position: relative; /* Position content above the pseudo-element */
+  z-index: 2; /* Bring content above the background */
+}

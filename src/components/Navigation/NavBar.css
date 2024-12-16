@@ -1,0 +1,90 @@
+.sidebar {
+  position: fixed; /* Fixed position to keep it in view */
+  width: 200px; /* Set a width for the sidebar */
+  height: 100%; /* Full height */
+  background-color: #21115b; /* Same background color */
+  padding: 20px; /* Add padding */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+}
+
+.listMenu {
+  list-style: none;
+  padding: 0; /* Remove default padding */
+}
+
+.eachList {
+  padding: 15px; /* Use consistent padding */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background and scale */
+}
+
+.eachList a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Bootstrap primary color */
+  font-weight: bold;
+}
+
+.nav-items {
+  margin-top: 20px;
+}
+
+.eachList:hover {
+  background-color: #0056b3;
+  transform: scale(
+    1.05
+  ); /* Slightly scale up on hover without changing layout */
+}
+
+img {
+  height: 50px; /* Adjust logo size */
+  margin-bottom: 20px; /* Space below logo */
+  display: block; /* Ensure logo is block-level */
+  margin-left: auto; /* Center logo */
+  margin-right: auto; /* Center logo */
+}
+
+h4 {
+  color: white !important; /* Ensure h4 text is visible */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading */
+}
+
+.upload-button {
+  background-color: #f3f4f7;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 30px; /* Add some margin on top */
+  align-self: center; /* Center the button horizontally */
+  margin-left: 10px;
+}
+
+.upload-button:hover {
+  padding: 5px 10px; /* Keep padding consistent */
+  background-color: orange;
+  color: white;
+}
+
+.logout-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: auto;
+  width: 80%;
+  align-self: center;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+  width: 90%;
+  padding: 10px;
+}

@@ -1,0 +1,40 @@
+.average-line-card {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.line-container {
+  display: flex;
+  position: relative;
+}
+
+.line {
+  height: 20px; /* Adjust height as needed */
+  transition: background-color 0.3s;
+}
+
+.reward-line {
+  background-color: #007bff; /* Color for average reward */
+}
+
+.loss-line {
+  background-color: red; /* Color for average loss */
+}
+
+.average-values {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.hover-value {
+  position: absolute;
+  background-color: #007bff;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 10;
+}

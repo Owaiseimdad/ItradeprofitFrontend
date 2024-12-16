@@ -1,0 +1,33 @@
+/* Table styles */
+
+thead {
+  background-color: #050000; /* Dark background for header */
+  color: #030000; /* Light text color */
+}
+
+.table-header {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #444; /* Bottom border for headers */
+}
+
+.table-row {
+  transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+  background-color: #444; /* Highlight on hover */
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #444; /* Bottom border for rows */
+}
+
+.negative {
+  color: red !important;
+}
+
+.positive {
+  color: green !important;
+}

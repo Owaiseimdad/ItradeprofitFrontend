@@ -1,0 +1,20 @@
+.footer-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #3498db;
+  color: white;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.footer-section a {
+  color: white !important;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.footer-section a:hover {
+  color: black !important;
+  list-style: none;
+}

@@ -1,0 +1,10 @@
+/* src/components/ProblemSection/ProblemSection.css */
+.problem-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: url('../../../assets/images/problem_solving_image.jpg') no-repeat
+    center center/cover;
+  color: white;
+  height: 100vh;
+  margin: 5px;
+}

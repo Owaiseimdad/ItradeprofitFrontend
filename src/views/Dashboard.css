@@ -1,0 +1,102 @@
+.page-title {
+  color: black;
+}
+
+.page-dashboard-header {
+  display: flex; /* Align items in a row */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Space below the header */
+  justify-content: space-between;
+}
+
+.dropdown-label {
+  margin-left: 20px; /* Space between title and label */
+  margin-right: 10px; /* Space between label and dropdown */
+  font-weight: bold; /* Bold text for visibility */
+}
+
+.dashboard-dropdown {
+  padding: 5px 10px; /* Padding for the dropdown */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border style */
+  background-color: white; /* Background color */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.dashboard-dropdown:hover {
+  border-color: #007bff; /* Change border color on hover */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff; /* Light text color */
+  text-align: center;
+}
+
+.metrics-section {
+  margin-bottom: 30px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.chart-section canvas {
+  max-width: 100%;
+}
+
+.chart-table-section {
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Space out the items */
+  margin: 20px 0; /* Add some margin */
+}
+
+.chart-section {
+  background-color: white; /* Background for chart section */
+  flex: 1; /* Allow the chart section to grow */
+  margin-right: 20px; /* Space between the chart and table */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding for the chart section */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.table-container {
+  background-color: white; /* Background for table section */
+  max-height: 400px; /* Set a maximum height for the table */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 2px solid #ffffff;
+  border-radius: 8px; /* Rounded corners */
+  flex: 1; /* Allow the table section to grow */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.table-title,
+.chart-label {
+  text-align: center; /* Center the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.invalid-data-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 5px solid black;
+  background-color: #fff3cd;
+  width: 50%;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 2px solid #ffffff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 8px; /* Rounded corners */
+}
+
+.table-title {
+  font-size: 1.5rem;
+  color: #a64605; /* Darker text for invalid data */
+}

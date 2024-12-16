@@ -1,0 +1,9 @@
+.quote-section {
+  background: url('../../../assets/images/trading_quote.jpg') no-repeat center
+    center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  height: 100vh;
+  margin: 5px;
+}

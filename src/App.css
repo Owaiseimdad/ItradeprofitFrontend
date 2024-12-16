@@ -1,0 +1,45 @@
+.body {
+  display: flex; /* Use flexbox for layout */
+  background-color: #f6f5ff;
+  height: 100vh; /* Make the body full height */
+}
+
+.navbar {
+  flex: 0 0 15%; /* Navbar takes up 1/4 (25%) of the width */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.pages {
+  flex: 1; /* Remaining 3/4 (75%) goes to pages */
+  padding: 10px; /* Add padding for the content area */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.alert {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease;
+}
+
+.alert-info {
+  background-color: #e7f3fe;
+  color: #31708f;
+  border: 1px solid #bce8f1;
+}

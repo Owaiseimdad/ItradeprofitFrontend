@@ -1,0 +1,64 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.auth-card {
+  background-color: #ffffff; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: auto; /* Fixed width for the card */
+}
+
+.auth-card h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.auth-card input {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 10px; /* Space between inputs */
+  border: 1px solid #ddd; /* Border for inputs */
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+.auth-card button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding inside button */
+  background-color: #007bff; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.auth-card button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.switch-title {
+  position: absolute;
+  right: 15%;
+  top: 40px;
+}
+
+.switch-button {
+  background-color: transparent; /* Transparent background */
+  color: #007bff; /* Bootstrap primary color */
+  font-size: 0.9em; /* Adjust font size */
+  cursor: pointer; /* Underline to indicate it's a link */
+  margin: 10px;
+  position: absolute; /* Absolute positioning */
+  right: 20px;
+  top: 20px;
+  width: 10%;
+}
+
+.switch-button:hover {
+  color: #3b96f7;
+  padding: 5px;
+}
